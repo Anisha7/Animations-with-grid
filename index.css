@@ -96,7 +96,10 @@
 }
 
 /* content styling */
-
+html, body {
+    max-height: 100%;
+    overflow-y: hidden;
+}
 /* left bar */
 
 .leftbar {
@@ -111,6 +114,7 @@
 
 h1 {
     font-size: 70px;
+    font-family: sans-serif verdana;
 }
 
 /* projects column */
