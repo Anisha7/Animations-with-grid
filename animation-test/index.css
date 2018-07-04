@@ -29,17 +29,17 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes box {
     0%   {background-color: rgb(242, 87, 87);}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    25%  {background-color: rgb(241, 134, 134);}
+    50%  {background-color: rgb(198, 157, 182);}
+    100% {background-color: rgb(172, 126, 148);}
 }
 
 /* Standard syntax */
 @keyframes box {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0%   {background-color: rgb(242, 87, 87);}
+    25%  {background-color: rgb(241, 134, 134);}
+    50%  {background-color: rgb(198, 157, 182);}
+    100% {background-color: rgb(172, 126, 148);}
 }
 
 .c56 {
@@ -75,4 +75,12 @@
 }
 .c14, .c16, .c18 {
     animation-delay: 3.4s;
+}
+
+.c12, .c22, .c32, .c42, .c52, .c62, .c72, .c82, .c92 {
+    animation-delay: 3.8s;
+}
+
+.c20, .c30, .c40, .c50, .c60, .c70, .c80, .c90 {
+    animation-delay: 3.8s;
 }
