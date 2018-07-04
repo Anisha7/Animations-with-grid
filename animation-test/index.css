@@ -1,0 +1,78 @@
+
+/** background grid **/
+.grid-container {
+    display: grid;
+    grid-template-columns: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
+    grid-auto-rows: 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11% 11.11%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: rgb(242, 87, 87);
+    -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes box {
+    0%   {background-color: rgb(242, 87, 87);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes box {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+.c56 {
+    animation-delay: 0.4s;
+}
+
+.c57, .c55, .c46, .c66 {
+    animation-delay: 0.8s;
+}
+
+.c47, .c67, .c45, .c65 {
+    animation-delay: 1.2s;
+}
+
+.c34, .c36, .c38, .c58, .c78, .c76, .c74, .c54 {
+    animation-delay: 1.6s;
+}
+
+.c35, .c37, .c48, .c68, .c77, .c75, .c64, .c44 {
+    animation-delay: 2.0s;
+}
+
+.c24, .c26, .c28, .c39, .c59, .c79, .c88, .c86, .c84, .c73, .c53, .c33 {
+    animation-delay: 2.4s;
+}
+
+.c23, .c25, .c27, .c29, .c49, .c69, .c89, .c87, .c85, .c83, .c63, .c43 {
+    animation-delay: 2.8s;
+}
+
+.c13, .c15, .c17, .c19 {
+    animation-delay: 3.2s;
+}
+.c14, .c16, .c18 {
+    animation-delay: 3.4s;
+}
