@@ -1,0 +1,51 @@
+body {
+    background-color: lightcoral;
+}
+
+html, body {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+
+/* Navigation bar at top */
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(242, 87, 87);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.titlename {
+    font-size: 20px;
+    font-style: normal;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+a, .titlename {
+    text-decoration: none;
+    color: white;
+}
+
+/* left bar */
+
+.leftbar {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-top: 18%;
+    padding-left: 7%;
+    padding-right: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* projects column */
