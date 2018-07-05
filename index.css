@@ -22,7 +22,7 @@
     -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
     animation-name: box;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 
@@ -115,6 +115,7 @@ html, body {
 h1 {
     font-size: 70px;
     font-family: sans-serif verdana;
+    font-weight: bolder;
 }
 
 /* projects column */
