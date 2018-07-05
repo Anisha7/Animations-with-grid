@@ -103,7 +103,7 @@ html, body {
 /* left bar */
 
 .leftbar {
-    width: 25%;
+    width: 30%;
     height: 100%;
     float: left;
     padding-top: 15%;
@@ -118,5 +118,27 @@ h1 {
     font-weight: bolder;
 }
 
+.social {
+    list-style-type: none;
+    display: block;
+    padding-top: 15px;
+    
+}
+
+.social, .horiz {
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.social-images {
+    width: 25px;
+}
+
+p {
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
 /* projects column */
 
