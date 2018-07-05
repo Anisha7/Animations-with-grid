@@ -142,3 +142,11 @@ p {
 }
 /* projects column */
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    float: right;
+    width: 70%;
+    border: 1px solid black;
+}
