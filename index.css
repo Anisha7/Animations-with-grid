@@ -106,9 +106,14 @@ html, body {
     width: 30%;
     height: 100%;
     float: left;
-    padding-top: 15%;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    /* bring your own prefixes */
+    transform: translate(0, -30%);
+    /* padding-top: 15%;
     padding-left: 7%;
-    padding-right: 20px;
+    padding-right: 20px; */
     color: white;
 }
 
@@ -145,8 +150,28 @@ p {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
     float: right;
-    width: 70%;
-    border: 1px solid black;
+    width: 50%;
+    position: fixed;
+    left: 40%;
+    /* bring your own prefixes */
+    transform: translate(0, -30%);
+    height: 15%;
 }
+
+.projectRow {
+    flex-direction: row;
+    border: 2px solid black;
+    flex-grow: 1;
+    margin: 10px;
+
+}
+
+.r1 {
+    top: 30%;
+}
+
+.r2 {
+    top: 45%;
+}
+
